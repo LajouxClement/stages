@@ -1,0 +1,22 @@
+
+/* CSS pour la liste des etudiants places et a placer */
+.listeEtud {
+    max-height: 300px;
+    overflow-x : hidden;
+    overflow-y: scroll;
+}
+
+/* CSS de la liste des etudiants deja places */
+#listeEtudPlaces { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+#listeEtudPlaces li { margin: 0 7px 7px 7px; padding: 6px; font-size: 13px; height: 1.5em; }
+html>body #listeEtudPlaces li { height: 2em; line-height: 1.0em; }
+.ui-state-highlight { height: 1.5em; line-height: 1.2em; }
+
+.isSelected{
+    border: 3px solid red;
+}
+
+.warningHour {
+    color: #f0ad4e;
+}
+
