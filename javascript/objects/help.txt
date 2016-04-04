@@ -1,0 +1,1 @@
+Ce répertoire va contenir tous les fichiers javascripts (lancement de requètes AJAX, formulaires ...).

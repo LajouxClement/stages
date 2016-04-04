@@ -1,0 +1,1 @@
+Ce repertoire contient tous les fichiers qui vont servir aux requètes AJAX.

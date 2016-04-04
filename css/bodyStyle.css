@@ -1,0 +1,113 @@
+.body-bg {
+    background-color: #13acc7;
+}
+
+.h2Style {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.recherche {
+    color: white;
+    background-color: #FCB117;
+    border-color: #FCB117;
+}
+
+.recherche:hover {
+    color: white;
+    background-color: #FFBB31;
+    border-color: #FFBB31;
+}
+
+.form-control {
+    height: 46px;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    min-height: 400px;
+}
+
+/*navigation*/
+.navigation a {
+    background-color: #FFFFFF;
+    color: lightgrey;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    width: auto;
+    text-decoration: none;
+
+    border-bottom-color: #FFFFFF;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+
+.navigation a:hover {
+    color: black;
+
+    border-bottom-color: #0084FE;
+}
+
+
+/*fiche*/
+.zone-fiche{
+    background-color: #F4F4F4;
+}
+.well{
+
+}
+.fiche{
+    background-color: #FFFFFF;
+    padding: 0px;
+    margin-top: 30px;
+}
+.fiche-image img{
+    height: 150px;
+    width: 100%;
+}
+
+.fiche-text h3{
+    font-weight: bold;
+}
+
+.fiche-attribut{
+
+    padding: 0px;
+    background-color: #F7F7F7;
+}
+.fiche-attribut div{
+    /*height: 80px;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.fiche-attribut div:hover{
+    background-color: #0084FE;
+}
+/*cercle*/
+.btn-circle.btn-xl {
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    padding: 10px 16px;
+    font-size: 24px;
+    color: rgba(0,132,254,0.5);
+    border: solid 5px;
+    border-color: rgba(0,132,254,0.5);
+    line-height: 1.33;
+    border-radius: 50%;
+}
+
+.containerr {
+    position: relative;
+    border: solid 5px;
+    border-color: rgba(0,132,254,0.5);
+    height: 450px;
+}
+
+.jumbotronn {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border: 1px dashed transparent;
+}
